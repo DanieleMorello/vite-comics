@@ -1,10 +1,18 @@
 <script>
 import AppHeader from "./components/AppHeader.vue"
 import AppMain from "./components/AppMain.vue"
+import AppFooter from "./components/AppFooter.vue"
+
 export default {
   components: {
     AppHeader,
     AppMain,
+    AppFooter
+  },
+  data() {
+    return {
+
+    }
   }
 } 
 </script>
@@ -13,10 +21,18 @@ export default {
   <div class="">
     <AppHeader></AppHeader>
     <AppMain></AppMain>
-    <footer>
-      <div class="footer_top"></div>
-      <div class="footer_bottom"></div>
-    </footer>
+    <AppFooter></AppFooter>
+    <!-- <footer>
+          <div class="footer_top">
+             <ul>
+                        <li>
+                          <img src="./assets/img/buy-comics-digital-comics.png" alt="">
+                          <span>digital comics</span>
+                        </li>
+                      </ul> 
+          </div>
+          <div class="footer_bottom"></div>
+        </footer> -->
   </div>
 </template>
 
