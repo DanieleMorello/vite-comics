@@ -22,17 +22,6 @@ export default {
     <AppHeader></AppHeader>
     <AppMain></AppMain>
     <AppFooter></AppFooter>
-    <!-- <footer>
-          <div class="footer_top">
-             <ul>
-                        <li>
-                          <img src="./assets/img/buy-comics-digital-comics.png" alt="">
-                          <span>digital comics</span>
-                        </li>
-                      </ul> 
-          </div>
-          <div class="footer_bottom"></div>
-        </footer> -->
   </div>
 </template>
 
