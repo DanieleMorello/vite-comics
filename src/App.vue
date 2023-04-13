@@ -1,16 +1,18 @@
 <script>
 import AppHeader from "./components/AppHeader.vue"
+import AppMain from "./components/AppMain.vue"
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    AppMain,
   }
 } 
 </script>
 
 <template>
-  <div class="debug">
+  <div class="">
     <AppHeader></AppHeader>
-    <main></main>
+    <AppMain></AppMain>
     <footer>
       <div class="footer_top"></div>
       <div class="footer_bottom"></div>
