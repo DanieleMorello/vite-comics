@@ -1,12 +1,21 @@
 <script>
+import AppJumbotron from './AppJumbotron.vue';
+export default {
+  components: {
+    AppJumbotron,
+  },
+  data() {
+    return {
+
+    }
+  }
+}
 </script>
 
 <template>
   <main class="d-flex">
-    <p>-- &gt;Content goes here&lt;--</p>
-    <div class="d-flex"></div>
-    <div class="d-flex"></div>
-    <div class="d-flex"></div>
+    <AppJumbotron></AppJumbotron>
+
   </main>
 </template>
 
