@@ -1,21 +1,25 @@
 <script>
-  export default {
+export default {
   name: 'AppCard',
   props: {
-    image: String,
-    title: String
+    thumb: String,
+    price: String,
+    series: String,
+    type: String,
   },
 }
 </script>
 <template>
   <div class="col">
     <div class="product">
-      <img :src="image" :alt="title">
-      <h4>{{ title }}</h4>
+      <img :src="thumb" :alt="series">
+      <h4>{{ series }}</h4>
     </div>
   </div>
 </template>
 
-<style>
-
+<style lang="scss" scoped>
+h4 {
+  text-transform: uppercase;
+}
 </style>

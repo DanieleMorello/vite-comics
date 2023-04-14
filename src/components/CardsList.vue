@@ -1,9 +1,9 @@
 <script>
-import AppCard from './AppCard';
-import cards from '../data/cards.js';
+import AppCard from './AppCard.vue';
+import cards from '/data/cards.js';
 export default {
   components: {
-    Product
+    AppCard
   },
   data() {
     return {
@@ -17,9 +17,9 @@ export default {
   <section class="container">
 
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+    <div class="d-flex">
 
-      <Product v-for="card in cards" :image="card.src" :title="card.titolo" />
+      <AppCard v-for="card in cards" :thumb="card.thumb" :series="card.series"></AppCard>
 
     </div>
   </section>

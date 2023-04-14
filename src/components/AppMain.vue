@@ -1,8 +1,10 @@
 <script>
 import AppJumbotron from './AppJumbotron.vue';
+import CardsList from './CardsList.vue'
 export default {
   components: {
     AppJumbotron,
+    CardsList
   },
   data() {
     return {
@@ -15,7 +17,7 @@ export default {
 <template>
   <main class="d-flex">
     <AppJumbotron></AppJumbotron>
-
+    <CardsList></CardsList>
   </main>
 </template>
 
